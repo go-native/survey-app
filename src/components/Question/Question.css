@@ -1,0 +1,11 @@
+.question {
+  padding: 10px;
+  border-bottom: 1px solid #cecece;
+}
+.question__text {
+  font-weight: bold;
+  font-size: 14px;
+}
+.question__answers {
+ padding: 10px;
+}

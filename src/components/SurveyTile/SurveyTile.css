@@ -1,0 +1,30 @@
+.survey-tile {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  box-shadow: #a7a7a7 0px 0px 2px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+.survey-tile:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.survey-tile__title {
+  background: #f26b00;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.survey-tile__body {
+  padding: 5px;
+  color: #545454;
+  font-size: 14px;
+}
+@media only screen and (max-width: 650px)  {
+  .tile { 
+    width: 100%;
+  }
+}
